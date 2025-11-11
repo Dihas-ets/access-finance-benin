@@ -2046,6 +2046,38 @@ input[type=radio] {
   .nice-select {
     margin-bottom: 20px;
   }
+
+  .cta-section .col-md-4{
+    justify-content: center;
+  }
+
+  .post-item img{
+    width: 100%;
+  }
+  
+}
+@media (max-width: 1000px){
+  .cta-section .btn{
+    min-width: auto!important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 900px){
+  #vous-etes .feature-card-cat .btn{
+   padding: 20px!important;
+   min-width: auto!important;
+   font-size: 13px!important;
+  }
+  .feature-card-cat h5{
+    font-size: 18px;
+  }
+  .cta-section .col-md-4{
+    flex-direction: column!important;
+  }
+  .cta-section .btn{
+    margin-bottom: 5px;
+  }
+  
 }
 /*--------------------
     Tabs
@@ -5078,6 +5110,11 @@ input[type=radio] {
   .slider .slide-title, .hero .slide-title {
     font-size: 50px;
     margin-bottom: 10px;
+  }
+  .slider .slide-item {
+    min-height: 0;
+    padding: 100px 10px;
+    height: auto !important;
   }
 }
 /* Mobile Phones and tablets */
